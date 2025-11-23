@@ -26,6 +26,7 @@
 body{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
+    overflow-x: hidden;
 }
 
 .externo::after{
