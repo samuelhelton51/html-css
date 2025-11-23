@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    
+    <style>
+       body{
+        font-family: Arial, Helvetica, sans-serif;
+
+        background-color: bisque;
+
+        margin: 0px;
+        
+       } 
+
+       header{
+        background-color: azure;
+        padding: 10px;
+        margin: 10px;
+       }
+
+       main{
+        background-color: azure;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+       }
+
+       footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;
+       }
+
+       p{
+        text-indent: 10px;
+        text-align: justify;
+       }
+
+       #escritor{
+        text-indent: 0px;
+       }
+
+       article{
+        background-color: lightgray;
+       }
+
+       article > aside{
+        background-color: rgb(117, 117, 117);
+       }
+
+       nav{
+        background-color: gray;
+        padding: 3px;
+        box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.374);
+       }
+
+       nav > a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+       }
+
+       nav > a:hover{
+        text-decoration: underline;
+        color: blue;
+       }
+
+       footer > p{
+        margin: 0px;
+        text-align: center;
+       }
+       
+       #bola{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(0, 0, 0);
+        margin: 5px auto;
+        border-radius: 50%;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Assuntos">
+
+        </section>
+
+        <section id="noticias">
+                <article>
+                    <h2>Notícias da banda</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nulla laudantium alias, nihil pariatur reprehenderit ipsum, aliquid enim in explicabo ad repellat magnam animi doloribus odio? Officia eveniet vero sed.</p>
+                    <aside>
+                        <p id="escritor">artigo escrito por José</p>
+                    </aside>
+                </article>
+                <article>
+
+                </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Helton Samuel</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
