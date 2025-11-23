@@ -27,7 +27,7 @@ body{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
     max-width: 100vw;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .externo::after{
