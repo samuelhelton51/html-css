@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: passionone;
+    src: url("../fontes/PassionOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: sriracha;
+    src: url("../fontes/Sriracha-Regular.ttf") format("truetype");
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url("../imagens/background001.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+}
+
+header h1{
+    color: white;
+    font-family: passionone, serif;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+header p{
+    text-align: center;
+    color: white;
+    padding-bottom: 30px
+}
+
+header p a{
+    font-family: passionone, serif;
+    text-decoration: none;
+    color: white;
+    font-weight: nomral;
+}
+
+header p a:hover{
+    text-decoration: underline;
+} 
+
+p{
+    font-family: sriracha, serif;
+}
+
+.branco{
+    background-color: white;
+    font-weight: normal;
+    padding: 80px 10px;
+    line-height: 60px;
+    font-size: 30px;
+}
+
+.transparente{
+    background-color: rgba(0, 0, 0, 0.701);
+    color: white;
+    padding: 80px 10px;
+    margin: 60px 100px 60px 20px;
+    font-size: 30px;
+    line-height: 50px;
+    max-width: 500px;
+    min-width: 300px;
+}
+
