@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        td, th{
+            border: 1px solid black;
+        }
+
+        tr th{
+            background-color: gray;
+            color: white;
+        }
+
+        .num{
+            text-align: center;
+        }
+
+        .rodape{
+            text-align: left;
+        }
+
+        .none{
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" class="none"><strong>Exatas</strong></th>
+                <td>Matemática</td>
+                <td class="num">20.0</td>
+                <td class="num">20.0</td>
+                <td class="num">20.0</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td class="num">20.0</td>
+                <td class="num">20.0</td>
+                <td class="num">20.0</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td class="num">20.0</td>
+                <td class="num">20.0</td>
+                <td class="num">20.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td class="num">20.0</td>
+                <td class="num">20.0</td>
+                <td class="num">20.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="rodape">Média de Exatas</th>
+                <td class="num">20.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" class="none"><strong>Humanas</strong></th>
+                <td>Histótia</td>
+                <td class="num">20.0</td>
+                <td class="num">20.0</td>
+                <td class="num">20.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td class="num">20.0</td>
+                <td class="num">20.0</td>
+                <td class="num">20.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="rodape">Média de Humanas</th>
+                <td class="num">20.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
