@@ -1,0 +1,8 @@
+@Ccharset "UTF-8";
+
+/*Aparelho em pé*/
+
+body{
+    background-image: url("/Exercícios/ex026/mq002/imagens/cev-portrait.jpg");
+    background-position: center bottom;
+}
